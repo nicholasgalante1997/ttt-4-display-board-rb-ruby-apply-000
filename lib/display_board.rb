@@ -1,2 +1,7 @@
-# Define display_board that accepts a board and prints
-# out the current state.
+x = "X"
+o = "O"
+board = [" "," "," "," "," "," "," "," "," "]
+def display_board(board,x,o)
+  puts #{board}
+  puts #{X} for board[0]
+end
